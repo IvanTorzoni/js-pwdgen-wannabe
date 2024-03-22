@@ -35,6 +35,9 @@ console.log(fixNum, typeof fixNum);
 
 
 // operation
-
+// Operazione di concatenazione delle stringhe
+let passGen = userName + userLastName + userColor + fixNum; //string
+// Log message alla console
+console.log(passGen, typeof passGen)
 
 // output
