@@ -24,7 +24,7 @@ let userColor = prompt("Inserisci il tuo colore preferito"); //string
 console.log(userColor, typeof userColor);
 
 // Inserimento di un numero fisso
-let fixNum = 21 //number
+let fixNum = 21; //number
 // Log message alla console
 console.log(fixNum, typeof fixNum);
 
@@ -38,6 +38,13 @@ console.log(fixNum, typeof fixNum);
 // Operazione di concatenazione delle stringhe
 let passGen = userName + userLastName + userColor + fixNum; //string
 // Log message alla console
-console.log(passGen, typeof passGen)
+console.log(passGen, typeof passGen);
 
 // output
+// Gestione del mesaaggio da generare
+let passMsg = `La tua password è ${passGen} `;
+// Log message alla console
+console.log(passMsg);
+
+// Scrittura del messaggio nel documento HTML
+document.getElementById("result").innerHTML = passMsg;
