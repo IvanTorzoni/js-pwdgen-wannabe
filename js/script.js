@@ -24,19 +24,22 @@ let userColor = prompt("Inserisci il tuo colore preferito"); //string
 console.log(userColor, typeof userColor);
 
 // Inserimento di un numero fisso
-let fixNum = 21; //number
+// let Num = 21; //number
+
+// inserimento di un numero random
+let Num = Math.floor(Math.random() * 100); //number
 // Log message alla console
-console.log(fixNum, typeof fixNum);
+console.log(Num, typeof Num);
 
 // converto il numero in striga
-fixNum = fixNum.toString(); //string
+fixNum = Num.toString(); //string
 // Log message alla console
-console.log(fixNum, typeof fixNum);
+console.log(Num, typeof Num);
 
 
 // operation
 // Operazione di concatenazione delle stringhe
-let passGen = userName + userLastName + userColor + fixNum; //string
+let passGen = userName + userLastName + userColor + Num; //string
 // Log message alla console
 console.log(passGen, typeof passGen);
 
