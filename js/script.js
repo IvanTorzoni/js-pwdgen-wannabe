@@ -9,17 +9,17 @@
 
 // input
 // Richiesta di inserimento nome all'utente tramite Prompt
-let userName = prompt("Inserisci il tuo nome"); //string
+const userName = prompt("Inserisci il tuo nome"); //string
 // Log message alla console
 console.log(userName, typeof userName);
 
 // Richiesta di inserimento cognome all'utente tramite Prompt
-let userLastName = prompt("Inserisci il tuo cognome"); //string
+const userLastName = prompt("Inserisci il tuo cognome"); //string
 // Log message alla console
 console.log(userLastName, typeof userLastName);
 
 // Richiesta di inserimento colore preferito all'utente tramite Prompt
-let userColor = prompt("Inserisci il tuo colore preferito"); //string
+const userColor = prompt("Inserisci il tuo colore preferito"); //string
 // Log message alla console
 console.log(userColor, typeof userColor);
 
@@ -32,7 +32,7 @@ let Num = Math.floor(Math.random() * 100); //number
 console.log(Num, typeof Num);
 
 // converto il numero in striga
-fixNum = Num.toString(); //string
+Num = Num.toString(); //string
 // Log message alla console
 console.log(Num, typeof Num);
 
